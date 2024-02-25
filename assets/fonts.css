@@ -1,0 +1,37 @@
+@font-face {
+	font-family: IRANSANS;
+	font-display: swap;
+	font-style: normal;
+	font-weight: 500;
+	src: url('./fonts/iransans/woff2/IRANSansX-Medium.woff2') format('woff2'),
+		 url('./fonts/iransans/woff/IRANSansX-Medium.woff') format('woff'),
+		 url('./fonts/iransans/otf/IRANSansX-Medium.otf') format('opentype'),
+		 url('./fonts/iransans/ttf/IRANSansX-Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: IRANSANS;
+	font-display: swap;
+	font-style: normal;
+	font-weight: 400;
+	src: url('./fonts/iransans/woff2/IRANSansX-Regular.woff2') format('woff2'),
+		 url('./fonts/iransans/woff/IRANSansX-Regular.woff') format('woff'),
+		 url('./fonts/iransans/otf/IRANSansX-Regular.otf') format('opentype'),
+		 url('./fonts/iransans/ttf/IRANSansX-Regular.ttf') format('truetype');
+}
+
+.font-black { font-weight: 900; font-variation-settings: "wght" 900; }
+.font-extra-bold { font-weight: 800; font-variation-settings: "wght" 800; }
+.font-bold { font-weight: 700; font-variation-settings: "wght" 700; }
+.font-demi-bold { font-weight: 600; font-variation-settings: "wght" 600; }
+.font-medium { font-weight: 500; font-variation-settings: "wght" 500; }
+.font-regular { font-weight: 400; font-variation-settings: "wght" 400; }
+.font-light { font-weight: 300; font-variation-settings: "wght" 300; }
+.font-ultra-light { font-weight: 200; font-variation-settings: "wght" 200; }
+.font-thin { font-weight: 100; font-variation-settings: "wght" 100; }
+
+.font-iransans {
+    -moz-font-feature-settings: "ss02" on, "ss03" on ;
+    -webkit-font-feature-settings: "ss02" on, "ss03" on ;
+    font-feature-settings: "ss02" on, "ss03" on ;
+}
